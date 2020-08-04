@@ -1,0 +1,1 @@
+SELECT * FROM (app_user a INNER JOIN study_set s ON a.user_id = s.owner_id) WHERE a.user_id = 5;
